@@ -12,6 +12,8 @@
  * @WPDetached {true/false} // CTO to update.
  *
  * @package MadLinksCoding
+ *
+ * Documentation: // CTO to update with clickup Link.
  */
 
 // Define a namespace called MadCoding.
