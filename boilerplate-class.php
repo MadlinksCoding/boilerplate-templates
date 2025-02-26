@@ -22,6 +22,12 @@ if ( ! defined( 'APP_ENVIRONMENT' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+// Import required classes from the MadLinksCoding namespace to reduce unnecessary frequent instantiations.
+use MadLinksCoding\Formatting; // Include the Formatting class.
+use MadLinksCoding\Logs; // Include the Logs class.
+use MadLinksCoding\Error; // Include the Error class.
+use MadLinksCoding\Translate; // Include the Translate class.
+
 /**
  * Class: ClassName
  */
